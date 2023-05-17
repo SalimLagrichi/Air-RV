@@ -1,3 +1,5 @@
+/* Main */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +18,10 @@ body {
     margin: 0 auto;
 }
 
+/* Main */
+
+/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -31,6 +37,43 @@ header {
     width: 100%;
 }
 
+/* Header */
+
+/* Carousel */
+
+/* Carousel */
+
+/* Product Card 1 */
+
+.product-image {
+    width: 100%;
+}
+
+.product-info {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.product-location {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.product-model {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.product-date {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.product-price {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+/* Product Card 1 */
 .nav-icon {
     width: 100px;
 }
@@ -59,6 +102,12 @@ header {
 .active {
     background-color: #04AA6D; /* Add an active/current color */
   }
+
+/* SCREEN 1 */
+
+#screen-1 {
+    background: yellow;
+   }
 
 /* SCREEN 2 */
 

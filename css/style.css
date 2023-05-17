@@ -75,18 +75,14 @@ header {
 /* FORM */
 
 .input-container input {
-	padding: 0.75rem 0.5rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
     border: #89B0AE solid 1px;
     border-radius: 5px;
-    color: #112F5C;
 }
 
-.input-containter label {
-	margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: black;
-}
 
 /* FOOTER NAVIGATION */
 

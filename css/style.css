@@ -16,9 +16,8 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+    border: #BEE3DB 1px solid;
 }
-
-/* Main */
 
 /* Header */
 
@@ -37,21 +36,20 @@ header {
     width: 100%;
 }
 
-/* Header */
-
-/* Carousel */
-
 /* Carousel */
 
 /* Product Card 1 */
 
 .product-image {
     width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    border-radius: 2rem;
 }
 
 .product-info {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .product-location {
@@ -73,13 +71,15 @@ header {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
 }
-/* Product Card 1 */
+
+/* Navigation */
+
 .nav-icon {
     width: 100px;
 }
 
 .icon-bar {
-    width: 90%;
+    width: 100%;
     overflow: auto;
     margin: 0 auto;
   }
@@ -89,39 +89,37 @@ header {
     text-align: center; /* Center-align text */
     width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 36px; /* Increased font size */
-    border-bottom: 5px solid #00B058;
+    border-bottom: #BEE3DB 5px solid;
   }
   
 .icon-bar a:hover {
     background-color: #BEE3DB;
+    border-bottom: orange 5px solid;
   }
   
 .active {
     background-color: #04AA6D; /* Add an active/current color */
   }
 
-/* SCREEN 1 */
+/* Screen 1 */
 
 #screen-1 {
-    background: yellow;
+    background: none;
    }
 
-/* SCREEN 2 */
+/* Screen 2 */
 
 #screen-2 {
- background: green;
+    background: none;
 }
 
-/* SCREEN 3 */
+/* Screen 3 */
 
 #screen-3 {
-    background: red;
+    background: none;
 }
 
-/* FOOTER NAVIGATION */
+/* Footer Navigation */
 
 nav {
     display: flex;
@@ -132,7 +130,7 @@ nav {
     height: 60px;
     padding: 0 5rem;
     background-color: grey;
-    width: 100%;
+    width: 90%;
     max-width: 700px;
 }
 

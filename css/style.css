@@ -83,6 +83,18 @@ header {
     border-radius: 5px;
 }
 
+.form-submit {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0.5rem;
+	width: 80%;
+    border: none;
+    background-color: #3A7582;
+    color: white;
+	font-size: 15px;
+	padding: 1rem;
+    border-radius: 10px;
+}
 
 /* FOOTER NAVIGATION */
 

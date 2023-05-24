@@ -87,6 +87,23 @@ header {
 
 /* FORM */
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 10px;
+}
+
+a:hover {
+  background-color: rgba(58, 117, 130, 0.7);
+  color: white;
+}
+.back-button {
+	background-color: #3A7582;
+    color: white;
+	border-radius: 30%;
+}
+
 .form-trip {
     padding-top: 1rem;
 }

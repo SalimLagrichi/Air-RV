@@ -131,6 +131,80 @@ header {
     background-color: #04AA6D; /* Add an active/current color */
   }
 
+
+/* Screen 1 Class A - */
+
+#screen-1 {
+    background: none;
+    margin: 3%;
+   }
+
+#screen-1 .product-description {
+    padding-top: 20px;
+}
+
+   /* .hero = product img */
+#screen-1 .hero {
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+#screen-1 h3 { /* Product Location */
+    font-weight: 800;
+    
+}
+
+#screen-1 .product-description h3 {
+    text-decoration: underline;
+}
+
+#screen-1 p { /* Product Description/Location */
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+}
+
+#screen-1 h4 { /* Product Reviews */
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+#screen-1 button { /* Book Now - Button */
+    font-size: 20px;
+    display: block;
+    background-color: #3A7582;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    box-shadow: 5px, 5px, 9px black;
+}
+
+#screen-1 button:hover {
+    background-color:#BEE3DB;
+    color: black;
+    border-style: solid;
+    border: 2px, solid;
+    border-color: #3A7582
+}
+
+
+/* Screen 2 */
+
+#screen-2 {
+    background: none;
+}
+
+/* Screen 3 */
+
+#screen-3 {
+    background: none;
+}
+
 /* Footer Navigation */
 
 nav {

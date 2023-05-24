@@ -96,6 +96,18 @@ header {
     width: 100px;
 }
 
+.classIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.classIcons span {
+    font-weight: 900;
+    
+}
+
 .icon-bar {
     width: 100%;
     overflow: auto;

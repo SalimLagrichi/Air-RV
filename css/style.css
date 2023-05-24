@@ -14,6 +14,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+	border: #BEE3DB 1px solid;
 }
 
 header {
@@ -161,9 +162,13 @@ nav {
     bottom: 0;
     height: 60px;
     padding: 0 5rem;
-    background-color: grey;
-    width: 100%;
+	width: 90%;
     max-width: 700px;
+	border-top: #BEE3DB 5px solid;
+	border-left: #BEE3DB 1px solid;
+	border-right: #BEE3DB 1px solid;
+	border-button: #BEE3DB 1px solid;
+	background-color: white;
 }
 
 .nav-item {
@@ -173,4 +178,26 @@ nav {
     align-items: center;
     color: white;
     font-size: 0.8rem;
+}
+
+.nav-item-button:hover {
+	border-bottom: orange 5px solid;
+}
+
+.search-icon {
+	height: 2rem;
+	width: 2rem;
+	cursor: pointer;
+}
+
+.map-icon {
+	height: 2rem;
+	width: 2rem;
+	cursor: pointer;
+}
+
+.about-icon {
+	height: 2rem;
+	width: 2rem;
+	cursor: pointer;
 }

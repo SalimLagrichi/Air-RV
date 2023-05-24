@@ -14,9 +14,33 @@
 			<h2 class="menu">Hamburger</h2>
     </header>
 <!-- FORM -->
-    <section id="form" style="display: block">
+    <section id="form-1" style="display: block">
 		<div>
-			<h1 class="form-heading">Your Details</h1><br>
+			<h1 class="form-trip">Your Trip</h1><br>
+			<form>
+				<div class="input-container">
+					<label for="start">Start Date:</label><br>
+					<select id="start" name="start">
+						<option value="1">1st January</option>
+						<option value="2">2nd January</option>
+						<option value="3">3rd January</option>
+					  </select>
+				</div><br>
+				<div class="input-container">
+					<label for="end">End Date:</label><br>
+					<select id="end" name="end">
+						<option value="8">8th January</option>
+						<option value="9">9th January</option>
+						<option value="10">10th January</option>
+					  </select>
+				</div><br>
+			</form>
+		</div>
+	</section>
+
+    <section id="form-2" style="display: block">
+		<div>
+			<h1 class="form-details">Your Details</h1><br>
 			<form>
 				<div class="input-container">
 					<label for="fname">First name:</label><br>

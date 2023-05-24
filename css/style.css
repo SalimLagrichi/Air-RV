@@ -25,6 +25,7 @@ header {
     top: 0;
     background: #BEE3DB;
     z-index: 999;
+    border-bottom: 5px solid #89B0AE;
 }
 
 .hero {
@@ -74,6 +75,26 @@ header {
 
 /* FORM */
 
+.form-trip {
+    padding-top: 1rem;
+}
+
+.input-container select {
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-details {
+    border-top: 5px solid rgba(137, 176, 174, 0.5);
+    padding-top: 1rem;
+}
+
 .input-container input {
     width: 100%;
     padding: 12px 20px;
@@ -91,7 +112,7 @@ header {
     border: none;
     background-color: #3A7582;
     color: white;
-	font-size: 15px;
+	font-size: 17px;
 	padding: 1rem;
     border-radius: 10px;
 }

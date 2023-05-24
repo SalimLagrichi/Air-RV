@@ -32,6 +32,18 @@ header {
     width: 100%;
 }
 
+.logo {
+	height: 4rem;
+	width: 4rem;
+	margin-left: 1rem;
+}
+
+.hamburger {
+	height: 3rem;
+	width: 4rem;
+	margin-right: 1rem;
+}
+
 .nav-icon {
     width: 100px;
 }

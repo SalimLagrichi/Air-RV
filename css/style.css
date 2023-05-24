@@ -8,13 +8,13 @@
 }
 
 body {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     max-width: 700px;
     margin: 0 auto;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     border: #BEE3DB 1px solid;
 }
@@ -30,15 +30,32 @@ header {
     top: 0;
     background: #BEE3DB;
     z-index: 999;
+    border-bottom: #8f8f8f 5px solid;
 }
 
 .hero {
     width: 100%;
 }
 
-/* Carousel */
+.logo {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.hamburger {
+    height: 3rem;
+    width: 4rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
 
 /* Product Card 1 */
+
+.product-card {
+    margin-bottom: 1rem;
+}
 
 .product-image {
     width: 100%;
@@ -46,6 +63,7 @@ header {
     padding-right: 1rem;
     padding-top: 1rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 
 .product-info {
@@ -101,24 +119,6 @@ header {
     background-color: #04AA6D; /* Add an active/current color */
   }
 
-/* Screen 1 */
-
-#screen-1 {
-    background: none;
-   }
-
-/* Screen 2 */
-
-#screen-2 {
-    background: none;
-}
-
-/* Screen 3 */
-
-#screen-3 {
-    background: none;
-}
-
 /* Footer Navigation */
 
 nav {
@@ -129,9 +129,13 @@ nav {
     bottom: 0;
     height: 60px;
     padding: 0 5rem;
-    background-color: grey;
     width: 90%;
     max-width: 700px;
+    border-top: #BEE3DB 5px solid;
+    border-left: #BEE3DB 1px solid;
+    border-right: #BEE3DB 1px solid;
+    border-bottom: #BEE3DB 1px solid;
+    background-color: white;
 }
 
 .nav-item {
@@ -141,4 +145,26 @@ nav {
     align-items: center;
     color: white;
     font-size: 0.8rem;
+}
+
+.nav-item-button:hover {
+    border-bottom: orange 5px solid;
+}
+
+.search-icon {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.map-icon {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.about-icon {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
 }

@@ -132,46 +132,46 @@ header {
   }
 
 
-/* Screen 1 Class A - */
+/* CSS for all Product Description pages - (Class - A/B/C) */
 
-#screen-1 {
+#product-description-all {
     background: none;
     margin: 3%;
    }
 
-#screen-1 .product-description {
+#product-description-all .product-description {
     padding-top: 20px;
 }
 
    /* .hero = product img */
-#screen-1 .hero {
+#product-description-all .hero {
     width: 100%;
     margin: auto;
     border-radius: 30px;
 }
 
-#screen-1 h3 { /* Product Location */
+#product-description-all h3 { /* Product Location */
     font-weight: 800;
     
 }
 
-#screen-1 .product-description h3 {
+#product-description-all .product-description h3 {
     text-decoration: underline;
 }
 
-#screen-1 p { /* Product Description/Location */
+#product-description-all p { /* Product Description/Location */
     padding-top: 15px;
     padding-bottom: 20px;
     
 }
 
-#screen-1 h4 { /* Product Reviews */
+#product-description-all h4 { /* Product Reviews */
     font-weight: 400;
     font-size: 15px;
     padding-top: 5px;
 }
 
-#screen-1 button { /* Book Now - Button */
+#product-description-all button { /* Book Now - Button */
     font-size: 20px;
     display: block;
     background-color: #3A7582;
@@ -184,7 +184,7 @@ header {
     box-shadow: 5px, 5px, 9px black;
 }
 
-#screen-1 button:hover {
+#product-description-all button:hover {
     background-color:#BEE3DB;
     color: black;
     border-style: solid;

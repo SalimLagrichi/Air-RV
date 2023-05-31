@@ -26,7 +26,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
     position: sticky;
     top: 0;
     background: #BEE3DB;
@@ -211,6 +210,69 @@ header {
 #screen-3 {
     background: none;
 }
+
+/* Form */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 10px;
+  }
+  
+  .back-button {
+      background-color: #3A7582;
+      color: white;
+      border-radius: 20%;
+  }
+  
+  .form-trip {
+      padding-top: 1rem;
+  }
+  
+  .input-container select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  
+  .form-details {
+      border-top: 5px solid rgba(137, 176, 174, 0.5);
+      padding-top: 1rem;
+  }
+  
+  .input-container input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: #89B0AE solid 1px;
+      border-radius: 5px;
+  }
+  
+  .form-submit {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0.5rem;
+      width: 80%;
+      border: none;
+      background-color: #3A7582;
+      color: white;
+      font-size: 17px;
+      padding: 1rem;
+      border-radius: 10px;
+  }
+  
+  .form-submit:hover {
+      background-color: rgba(58, 117, 130, 0.9);
+      color: white;
+  }
+  
 
 /* Footer Navigation */
 

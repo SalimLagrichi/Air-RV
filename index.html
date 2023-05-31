@@ -41,7 +41,7 @@
                 </a>
 			</div>
 
-            <!-- SCREEN 1 / Class A -->
+            <!-- SCREEN 1 / CLASS A -->
             <section id="screen-1">
                 <div class="product-card">
                     <img class="product-image" src="../air-rv/img/class-a/aidra/class-a-aidra-sonic-1.jpg">
@@ -72,7 +72,7 @@
                 </div>
             </section>
 
-               <!-- SCREEN 2 / Class B -->
+               <!-- SCREEN 2 / CLASS B -->
                <section id="screen-2">
                 <div class="product-card">
                     <img class="product-image" src="img/class-b/fiat-mobilvetta/class-b-fiat-mobilvetta-1.jpg">
@@ -103,7 +103,7 @@
                 </div>
             </section>
 
-            <!-- SCREEN 3 / Class C -->
+            <!-- SCREEN 3 / CLASS C -->
             <section id="screen-3">
                 <div class="product-card">
                     <img class="product-image" src="img/class-c/fiat-ducato/class-c-fiat-ducato-1.jpg">
@@ -134,7 +134,7 @@
                 </div>
             </section>
 
-            <!-- SCREEN 4 / Camper -->
+            <!-- SCREEN 4 / CAMPER -->
             <section id="screen-4">
                 <div class="product-card">
                     <img class="product-image" src="img/camper/merc-sprinter/camper-merc-sprinter-1.jpg">
@@ -164,19 +164,75 @@
                     </div>
                 </div>
             </section>
-        </main>  
-    </div>
-    <nav>
-        <div class="nav-item-button">
-            <img class="search-icon" src="img/icons/search.png">
+
+            <!-- FORM -->
+                <div>
+                    <a href="#" class="back-button">&#8249;</a>
+                </div>
+        
+                <section id="form-1" style="display: block">
+                    <div>
+                        <h1 class="form-trip">Your Trip</h1><br>
+                        <form>
+                        <div class="input-container">
+                            <label for="start">Start Date:</label><br>
+                            <select id="start" name="start">
+                                <option value="1">1st January</option>
+                                <option value="2">2nd January</option>
+                                <option value="3">3rd January</option>
+                            </select>
+                        </div><br>
+                        <div class="input-container">
+                            <label for="end">End Date:</label><br>
+                            <select id="end" name="end">
+                                <option value="8">8th January</option>
+                                <option value="9">9th January</option>
+                                <option value="10">10th January</option>
+                            </select>
+                        </div><br>
+                        </form>
+                    </div>
+                </section>
+    
+                <section id="form-2" style="display: block">
+                    <div>
+                        <h1 class="form-details">Your Details</h1><br>
+                        <form>
+                        <div class="input-container">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname"><br><br>
+                        </div>
+                        <div class="input-container">
+                            <label for="lname">Surname:</label><br>
+                            <input type="text" id="sname" name="sname"><br><br>
+                        </div>
+                        <div class="input-container">
+                            <label for="email">Email Address:</label><br>
+                            <input type="text" id="email" name="email"><br><br>
+                        </div>
+                        <div class="input-container">
+                            <label for="contact">Contact Number:</label><br>
+                            <input type="text" id="contact" name="contact"><br><br>
+                        </div>
+                        <button class="form-submit">Submit</button>
+                        </form>
+                    </div>
+            </main>  
         </div>
-        <div class="nav-item-button">
-            <img class="map-icon" src="img/icons/map.png">
-        </div>
-        <div class="nav-item-button">
-            <img class="about-icon" src="img/icons/about.png">
-        </div>
-    </nav>     
-    <script src="../air-rv/js/script.js"></script>
+            </section>
+	        
+        <!-- FOOTER NAVIGATION -->
+        <nav>
+            <div class="nav-item-button">
+                <img class="search-icon" src="img/icons/search.png">
+            </div>
+            <div class="nav-item-button">
+                <img class="map-icon" src="img/icons/map.png">
+            </div>
+            <div class="nav-item-button">
+                <img class="about-icon" src="img/icons/about.png">
+            </div>
+        </nav>     
+        <script src="../air-rv/js/script.js"></script>
 </body>
 </html>

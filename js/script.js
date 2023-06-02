@@ -64,6 +64,66 @@ $(".classIcon-A").on("click", function(){
     $("#screen-4").hide();
 });
 
+// Click Class A 'Fiat Aidra' - Will hide everything except for Fiat Aidra description.
+
+$("#product-image-aidra").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").show();
+});
+
+// Click Class A 'Burstner' - Will hide everything except for Burstner description.
+
+$("#product-image-burstner").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-burstner").show();
+});
+
+// CLick Class A 'Mercedes Frankia' - Will hide everything except for Mercedes Frankia description.
+
+$("#product-image-frankia").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-frankia").show();
+});
+
+// Click CLass B 'Fiat Mobilvetta' - Will hide everything except for Fiat Mobilvetta description.
+
+$("#product-image-mobilvetta").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-b-description-mobilvetta").show();
+});
+
+// Click CLass B 'Mercedes Hymer' - Will hide everything except for Mercedes Hymer description.
+
+$("#product-image-hymer").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-b-description-hymer").show();
+});
+
+// Click Class B 'Mercedes Winnebago' - Will hide everything except for Mercedes Winnebago description.
+
+$("#product-image-winnebago").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-b-description-winnebago").show();
+});
+
 // Click Class C 'Fiat Ducato' - Will hide everything except for Fiat Ducato description.
 
 $("#product-image-ducato").on("click", function(){

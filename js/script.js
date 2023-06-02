@@ -54,3 +54,12 @@ $(".classIcon-Camper").on("click", function(){
     $("#screen-3").hide();
     $("#screen-4").show();
 });
+
+// Click Class A Icon - Will hide everything except for Class A product cards.
+
+$(".classIcon-A").on("click", function(){
+    $("#screen-2").hide();
+    $("#screen-1").show();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+});

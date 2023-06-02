@@ -215,9 +215,12 @@ header {
 
 a {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     padding: 12px 20px;
     margin-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center
   }
   
   .back-button {

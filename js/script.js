@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 // Click Class B Icon - Will hide everything except for Class B product cards.
 
-$( "classIcon-B" ).click(function() {
+$(".classIcon-B").on("click", function(){
     $("#screen-2").show();
     $("#screen-1").hide();
     $("#screen-3").hide();
@@ -39,5 +39,18 @@ $( "classIcon-B" ).click(function() {
 
 // Click Class C Icon - Will hide everything except for Class C product cards.
 
+$(".classIcon-C").on("click", function(){
+    $("#screen-2").hide();
+    $("#screen-1").hide();
+    $("#screen-3").show();
+    $("#screen-4").hide();
+});
 
 // Click Camper Icon - Will hide everything except for Camper product cards.
+
+$(".classIcon-Camper").on("click", function(){
+    $("#screen-2").hide();
+    $("#screen-1").hide();
+    $("#screen-3").hide();
+    $("#screen-4").show();
+});

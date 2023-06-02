@@ -63,3 +63,63 @@ $(".classIcon-A").on("click", function(){
     $("#screen-3").hide();
     $("#screen-4").hide();
 });
+
+// Click Class C 'Fiat Ducato' - Will hide everything except for Fiat Ducato description.
+
+$("#product-image-ducato").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-c-description-ducato").show();
+});
+
+// Click Class C 'Ford Roller' - Will hide everything except for Ford Roller description.
+
+$("#product-image-roller").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-c-description-roller").show();
+});
+
+// Click Class C 'Mercedes Coachman' - Will hide everything except for Mercedes Coachman description.
+
+$("#product-image-coachman").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-c-description-coachman").show();
+});
+
+// Click Camper 'Mercedes Sprinter' - Will hide everything except for Mercedes Sprinter description.
+
+$("#product-image-sprinter").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".camper-description-sprinter").show();
+});
+
+// Click Camper 'Volkswagen California' - Will hide everything except for Volkswagen California description.
+
+$("#product-image-california").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".camper-description-california").show();
+});
+
+// Click Camper 'Volkswagen Transport' - Will hide everything except for Volkswagen California description.
+
+$("#product-image-transport").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".camper-description-transport").show();
+});

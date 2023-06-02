@@ -63,3 +63,33 @@ $(".classIcon-A").on("click", function(){
     $("#screen-3").hide();
     $("#screen-4").hide();
 });
+
+// Click Class B - Fiat Mobilvetta - Will hide everything except for Fiat Mobilvetta description.
+
+$("#product-image-mobilvetta").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    
+});
+
+// Click Class B - Mercedes Hymer - Will hide everything except for Mercedes Hymer description.
+
+$("#product-image-hymer").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-b-description-hymer").show();
+});
+
+// Click Class B - Mercedes Winnebago - Will hide everything except for Mercedes Winnebago description.
+
+$("#product-image-hymer").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-b-description-hymer").show();
+});

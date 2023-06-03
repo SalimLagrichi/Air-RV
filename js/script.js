@@ -183,3 +183,91 @@ $("#product-image-transport").on("click", function(){
     $("#screen-4").hide();
     $(".camper-description-transport").show();
 });
+
+// Click Class A icon - Will only show Class A icons & hide previous clicked descriptions.
+
+$(".classIcon-A").on("click", function(){
+    $("#screen-1").show();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").hide();
+});
+
+// Click Class B icon - Will only show Class B icons & hide previous clicked descriptions.
+
+$(".classIcon-B").on("click", function(){
+    $("#screen-2").show();
+    $("#screen-1").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").hide();
+});
+
+// Click CLass C icon - Will only show Class C icons & hide previous clicked descriptions.
+
+$(".classIcon-C").on("click", function(){
+    $("#screen-3").show();
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").hide();
+});
+
+// Click Camper icon - Will only show Camper icons & hide previous clicked descriptions.
+
+$(".classIcon-Camper").on("click", function(){
+    $("#screen-4").show();
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").hide();
+});

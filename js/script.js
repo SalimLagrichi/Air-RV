@@ -271,3 +271,47 @@ $(".classIcon-Camper").on("click", function(){
     $(".camper-description-transport").hide();
     $("#form").hide();
 });
+
+// Click button on product description pages - Will take you to form page and hide everything else.
+
+$("button").on("click", function(){
+    $("#screen-1").hide();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").show();
+});
+
+// Click 'submit' button on form page - Will take you to home page.
+
+$(".form-submit").on("click", function(){
+    $("#screen-1").show();
+    $("#screen-2").hide();
+    $("#screen-3").hide();
+    $("#screen-4").hide();
+    $(".class-a-description-aidra").hide();
+    $(".class-a-description-burstner").hide();
+    $(".class-a-description-frankia").hide();
+    $(".class-b-description-mobilvetta").hide();
+    $(".class-b-description-hymer").hide();
+    $(".class-b-description-winnebago").hide();
+    $(".class-c-description-ducato").hide();
+    $(".class-c-description-roller").hide();
+    $(".class-c-description-coachman").hide();
+    $(".camper-description-sprinter").hide();
+    $(".camper-description-california").hide();
+    $(".camper-description-transport").hide();
+    $("#form").hide();
+});

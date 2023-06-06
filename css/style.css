@@ -147,6 +147,7 @@ header {
 
 #product-description-all .product-description {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
    /* .hero = product img */
@@ -158,7 +159,6 @@ header {
 
 #product-description-all h3 { /* Product Location */
     font-weight: 800;
-    
 }
 
 #product-description-all .product-description h3 {
@@ -168,7 +168,6 @@ header {
 #product-description-all p { /* Product Description/Location */
     padding-top: 15px;
     padding-bottom: 20px;
-    
 }
 
 #product-description-all h4 { /* Product Reviews */
@@ -228,6 +227,7 @@ a {
       color: white;
       border-radius: 20%;
       margin-left: 1rem;
+      width: 5%;
   }
   
   .form-trip {
